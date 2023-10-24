@@ -1225,6 +1225,11 @@
   resolved "https://registry.npmjs.org/@webpack-cli/serve/-/serve-2.0.1.tgz"
   integrity sha512-0G7tNyS+yW8TdgHwZKlDWYXFA6OJQnoLCQvYKkQP0Q2X205PSQ6RNUj0M+1OB/9gRQaUZ/ccYfaxd0nhaWKfjw==
 
+"@xmldom/xmldom@^0.7.13":
+  version "0.7.13"
+  resolved "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.7.13.tgz"
+  integrity sha512-lm2GW5PkosIzccsaZIz7tp8cPADSIlIHWDFTR1N0SzfinhhYgeIQjFMz4rYzanCScr3DqQLeomUDArp6MWKm+g==
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.npmjs.org/@xtuc/ieee754/-/ieee754-1.2.0.tgz"
@@ -1440,14 +1445,13 @@ caniuse-lite@^1.0.30001400:
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001442.tgz"
   integrity sha512-239m03Pqy0hwxYPYR5JwOIxRJfLTWtle9FV8zosfV5pHg+/51uD4nxcUlM8+mWWGfwKtt8lJNHnD3cWw9VZ6ow==
 
-canvg-browser@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/canvg-browser/-/canvg-browser-1.0.0.tgz"
-  integrity sha1-xjy1qeegxwaYqch3g0c+YJFepIM=sha512-awXQ+9yLsqjcGIoURleQfGuE+7vMHXOshluFBS4+A+o3U+ZoIgcrCOWFUWQxdHJETpWxhAgPHX6g8lQujG9hoQ== sha512-awXQ+9yLsqjcGIoURleQfGuE+7vMHXOshluFBS4+A+o3U+ZoIgcrCOWFUWQxdHJETpWxhAgPHX6g8lQujG9hoQ==
+"canvg@github:lotusflare/fork-canvg-browser":
+  version "0.0.1"
+  resolved "git+ssh://git@github.com/lotusflare/fork-canvg-browser.git#4e81283fcedb9ee1ff6a3630a265f487f05c09c2"
   dependencies:
+    "@xmldom/xmldom" "^0.7.13"
     rgbcolor "0.0.4"
     stackblur "^1.0.0"
-    xmldom "^0.1.22"
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -2996,11 +3000,6 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
-
-xmldom@^0.1.22:
-  version "0.1.31"
-  resolved "https://registry.npmjs.org/xmldom/-/xmldom-0.1.31.tgz"
-  integrity sha512-yS2uJflVQs6n+CyjHoaBmVSqIDevTAWrzMmjG1Gc7h1qQ7uVozNhEPJAwZXWyGQ/Gafo3fCwrcaokezLPupVyQ==
 
 y18n@^5.0.5:
   version "5.0.8"

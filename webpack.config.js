@@ -11,7 +11,7 @@ const config = {
     minimizer: [new TerserPlugin()],
   },
   output: {
-    //libraryTarget: 'umd', // make the bundle export
+    libraryTarget: 'umd', // make the bundle export
     path: __dirname + '/dist',
     filename: 'draw2d.js',
     library: 'draw2d'
