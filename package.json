@@ -43,7 +43,7 @@
     "yargs": "^17.6.2"
   },
   "dependencies": {
-    "canvg": "github:lotusflare/fork-canvg-browser#update-xmldom-0.7.13",
+    "canvg": "github:lotusflare/fork-canvg-browser",
     "shifty": "2.20.0"
   }
 }
